@@ -36,4 +36,34 @@ Table of contents
 ### Context Diagram and Use Cases
 ![Context Diagram](Requirements/images/context-diagram.png)
 
+## Requirements
+Detailed description [here](Requirements/requirements-and-assumptions.md)
+
 ## Event Storming
+Following the [Event Storming](EventStorming/event_storming.md) workshop, we identified the key flows and interactions in the system. We chose Event Storming for this project because:
+
+1. It enables rapid knowledge sharing between technical and business stakeholders
+2. Helps identify key domain events, commands, and actors in the system
+3. Naturally leads to identifying bounded contexts and potential microservices
+4. Creates a shared understanding of the business workflow and requirements
+
+Our Event Storming session revealed the key flows and interactions in the ClearView platform:
+
+![Event Storming](EventStorming/images/events.png)
+
+The Event Storming exercise helped us identify the major components and bounded contexts in the system, which informed our architectural decisions. Key insights included:
+
+- The separation between candidate profile management and job matching processes
+- The importance of the anonymization service as a core capability
+- Natural boundaries between employer and candidate workflows
+- Integration points with external systems like job boards and HR systems
+
+## Architecture Characteristics
+### Quality Attributes
+Detailed description [here](ArchitectureCharacteristics/Characteristics.md)
+![Characteristics](ArchitectureCharacteristics/images/characteristics.png)
+
+### Architectural Styles
+Detailed description [here](ArchitectureCharacteristics/Characteristics.md)
+![Styles](ArchitectureCharacteristics/images/styles.png)
+
