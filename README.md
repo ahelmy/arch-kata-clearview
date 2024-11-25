@@ -67,3 +67,6 @@ Detailed description [here](ArchitectureCharacteristics/Characteristics.md)
 Detailed description [here](ArchitectureCharacteristics/Characteristics.md)
 ![Styles](ArchitectureCharacteristics/images/styles.png)
 
+## C4 Model
+Detailed description [here](C4/context.md)
+![C4 Model](C4/images/context.png)
